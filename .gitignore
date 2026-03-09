@@ -1,0 +1,11 @@
+# Arquivos de backup do Proteus
+*.pdsbak
+*~
+
+# Arquivos de log e temporários do sistema
+*.log
+Thumbs.db
+.DS_Store
+
+# Pasta de saída
+# /CADCAM/
