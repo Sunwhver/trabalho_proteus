@@ -56,3 +56,15 @@ ___
     
 - **Sinal da Onda:** Limpa os "espinhos" ou ruídos quase invisíveis que ficam sobrepostos à linha de tensão contínua.
 <br>
+
+### 5. CONN-SIL2 / SIL-100-02 (Conectores)
+
+- **O que é:** Terminais de conexão física (bornes ou pinos).
+    
+- **O que faz:** Provê o ponto de entrada para a fonte AC e o ponto de saída para a carga 12V DC.
+    
+- **Importância:** Permite a manutenção e a conexão segura de fios externos sem a necessidade de soldar e dessoldar diretamente na placa a todo momento.
+    
+- **Sinal da Onda:** Na entrada (SIL de entrada), o sinal é AC Senoidal. Na saída (SIL de saída), o sinal é 12V DC Puro.
+<br>
+
