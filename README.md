@@ -68,3 +68,14 @@ ___
 - **Sinal da Onda:** Na entrada (SIL de entrada), o sinal é AC Senoidal. Na saída (SIL de saída), o sinal é 12V DC Puro.
 <br>
 
+### 6. LED (Diodo Emissor de Luz)
+
+- **O que é:** Um semicondutor que emite luz quando percorrido por uma corrente.
+    
+- **O que faz:** Converte energia elétrica em sinalização visual.
+    
+- **Importância:** Indica o estado do sistema (Ligado/Desligado). É crucial para que o usuário saiba que a placa está energizada antes de tocá-la ou conectar um dispositivo.
+    
+- **Sinal da Onda:** Opera em 12V DC (após o resistor), emitindo luz constante.
+<br>
+
