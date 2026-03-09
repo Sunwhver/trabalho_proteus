@@ -20,4 +20,15 @@ SIL-100-02
 - **Importância:** É o componente de precisão e segurança do projeto. Ele garante que, mesmo que a energia da rede elétrica mude levemente, os dispositivos conectados à saída da sua placa recebam sempre a voltagem correta, protegendo-os contra queimas ou mau funcionamento.
     
 - **Sinal da Onda:** Recebe uma linha com **Ripple** (uma pequena ondulação de serra) e a transforma em uma **Linha Reta Perfeita (DC Pura)** estabilizada em 12V.
+
+
+### 2. BRIDGE (Ponte Retificadora)
+
+- **O que é:** Um conjunto de quatro diodos montados em uma única cápsula.
+    
+- **O que faz:** Realiza a retificação de onda completa, invertendo os ciclos negativos da corrente alternada para o lado positivo.
+    
+- **Importância:** É o componente que permite que a energia da tomada (AC) comece a se comportar como uma bateria (DC). Sem ela, os componentes seguintes seriam danificados pela inversão de polaridade.
+    
+- **Sinal da Onda:** Transforma uma **Senoide** (onda que sobe e desce) em uma **Onda Pulsante Positiva** (uma sequência de "lombadas").
     
