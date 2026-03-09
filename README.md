@@ -79,3 +79,15 @@ ___
 - **Sinal da Onda:** Opera em 12V DC (após o resistor), emitindo luz constante.
 <br>
 
+### 7. MINRES120K (Resistor)
+
+- **O que é:** Um componente passivo que oferece resistência à passagem da corrente.
+    
+- **O que faz:** Limita a intensidade da corrente elétrica que chega ao LED.
+    
+- **Importância:** Sem ele, o LED receberia toda a corrente da fonte e queimaria instantaneamente. Ele calcula e "freia" a energia para o nível seguro do LED.
+    
+- **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
+<br>
+
+___
