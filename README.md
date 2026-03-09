@@ -99,8 +99,14 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
     
 - **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
 
-___
 
 ## Imagens do trabalho
 
 Como espeificado pelo professor, é preciso ter imagem do circuito nas 3 formas possíveis: Esquemático, PCB e 3D
+
+### Schematic Capture (Esquema Elétrico):
+
+É o desenho lógico do circuito. Aqui é definido quais componentes serão usados e como eles se conectam eletricamente (quem liga em quem). Serve para simular o comportamento do circuito (testar se a fonte realmente entrega 12V) e validar a lógica antes de montar a placa física.
+
+![Esquema Elétrico](assets/Schematic%20Capture%20-%20Retificador%20Trabalho%2001.png)
+<br>
