@@ -102,11 +102,18 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 
 ## Imagens do trabalho
 
-Como espeificado pelo professor, é preciso ter imagem do circuito nas 3 formas possíveis: Esquemático, PCB e 3D
+Como especificado pelo professor, é preciso ter imagem do circuito nas 3 formas possíveis: Esquemático, PCB e 3D
 
 ### Schematic Capture (Esquema Elétrico):
 
 É o desenho lógico do circuito. Aqui é definido quais componentes serão usados e como eles se conectam eletricamente (quem liga em quem). Serve para simular o comportamento do circuito (testar se a fonte realmente entrega 12V) e validar a lógica antes de montar a placa física.
 
 ![Esquema Elétrico](assets/Schematic%20Capture%20-%20Retificador%20Trabalho%2001.png)
+<br>
+
+### PCB Layout (ARES):
+
+É o desenho físico da placa de circuito impresso. Aqui é posicionado os componentes onde eles realmente vão ficar soldados e onde as trilhas de cobre são desenhadas (as linhas azuis e vermelhas). É o arquivo usado para a fabricação da placa. É onde é definido a espessura das trilhas e o tamanho real do objeto.
+
+![Layout da placa](assets/PCB%20Layout%20-%20Retificador%20Trabalho%2001.png)
 <br>
