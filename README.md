@@ -93,7 +93,7 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
     
 - **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
 ___
-<br>
+
 
 ## Imagens do trabalho
 
@@ -105,7 +105,6 @@ Como especificado pelo professor, é preciso ter imagem do circuito nas 3 formas
 
 ![Esquema Elétrico](assets/Schematic%20Capture%20-%20Retificador%20Trabalho%2001.png)
 ___
-<br>
 
 ### PCB Layout (ARES):
 
@@ -113,7 +112,6 @@ ___
 
 ![Layout da placa](assets/PCB%20Layout%20-%20Retificador%20Trabalho%2001.png)
 ___
-<br>
 
 ### 3D Visualizer (Visualização 3D):
 
@@ -127,4 +125,3 @@ ___
 
 #### Placa vista de baixo:
 ![Visualização 3D vista de baixo](assets/3D%20Visualizer%20-%20Retificador%20Trabalho%2001%20(BAIXO).png)
-___
