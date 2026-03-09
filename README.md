@@ -22,7 +22,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 7. MINRES120K
 8. SIL-100-02
 
-___
 
 ### 1. IC 7812 (Regulador de Tensão)
 
@@ -101,3 +100,7 @@ ___
 - **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
 
 ___
+
+## Imagens do trabalho
+
+Como espeificado pelo professor, é preciso ter imagem do circuito nas 3 formas possíveis: Esquemático, PCB e 3D
