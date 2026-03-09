@@ -98,7 +98,7 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** Sem ele, o LED receberia toda a corrente da fonte e queimaria instantaneamente. Ele calcula e "freia" a energia para o nível seguro do LED.
     
 - **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
-
+<br>
 
 ## Imagens do trabalho
 
@@ -117,3 +117,14 @@ Como especificado pelo professor, é preciso ter imagem do circuito nas 3 formas
 
 ![Layout da placa](assets/PCB%20Layout%20-%20Retificador%20Trabalho%2001.png)
 <br>
+
+### 3D Visualizer (Visualização 3D):
+
+É uma renderização tridimensional da placa pronta que permite verificar se os componentes estão bem espaçados, se algum conector ficou virado para o lado errado e como será o resultado final após a montagem. É a melhor forma de apresentar o projeto visualmente.
+
+#### Placa vista de cima:
+
+![Visualização 3D vista de cima](assets/3D%20Visualizer%20-%20Retificador%20Trabalho%2001%20(CIMA).png)
+
+#### Placa vista de baixo:
+![Visualização 3D vista de baixo](assets/3D%20Visualizer%20-%20Retificador%20Trabalho%2001%20(BAIXO).png)
