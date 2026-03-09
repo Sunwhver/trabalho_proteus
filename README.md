@@ -1,4 +1,15 @@
-# Componentes utilizados
+# Explicação e especificações do trabalho
+
+- Placa de tamanho retangular de 40mm de altura e 80mm de largura
+- O conector macho deve ser o secundário do transformador/ saída do transformador
+- Fazer o circuito em modo Esquemático, PCB e 3D
+- Tirar capturas de telas do circuito nos 3 modos
+- Colocar os mesmos valores do simulador (capacitores e resistores)
+- As trilhas/ligações do circuito interno devem ser desenhadas na parte inferior da placa (bottom/linhas devem ser azuis)
+- Criar o projeto no GitHub e documentar o que cada parte/elemento do circuito é, faz e sua importância (e sinal da onda) para o funcionamento correto do circuito
+
+
+## Componentes utilizados
 
 Abaixo estão os principais componentes que compõem este circuito de retificação e regulação:
 
@@ -88,6 +99,5 @@ ___
 - **Importância:** Sem ele, o LED receberia toda a corrente da fonte e queimaria instantaneamente. Ele calcula e "freia" a energia para o nível seguro do LED.
     
 - **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
-<br>
 
 ___
