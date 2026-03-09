@@ -32,7 +32,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** É o componente de precisão e segurança do projeto. Ele garante que, mesmo que a energia da rede elétrica mude levemente, os dispositivos conectados à saída da sua placa recebam sempre a voltagem correta, protegendo-os contra queimas ou mau funcionamento.
     
 - **Sinal da Onda:** Recebe uma linha com **Ripple** (uma pequena ondulação de serra) e a transforma em uma **Linha Reta Perfeita (DC Pura)** estabilizada em 12V.
-<br>
 
 ### 2. BRIDGE (Ponte Retificadora)
 
@@ -43,7 +42,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** É o componente que permite que a energia da tomada (AC) comece a se comportar como uma bateria (DC). Sem ela, os componentes seguintes seriam danificados pela inversão de polaridade.
     
 - **Sinal da Onda:** Transforma uma **Senoide** (onda que sobe e desce) em uma **Onda Pulsante Positiva** (uma sequência de "lombadas").
-<br>
 
 ### 3. CAP-ELEC (Capacitor Eletrolítico)
 
@@ -54,7 +52,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** Reduz drasticamente a variação da tensão, impedindo que o circuito "desligue" entre um pulso e outro da rede elétrica.
     
 - **Sinal da Onda:** Transforma a onda pulsante em uma linha com **Ripple** (uma pequena ondulação em forma de serra no topo do sinal).
-<br>
 
 ### 4. CAP (Capacitor Cerâmico/Desacoplamento)
 
@@ -65,7 +62,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** Garante a estabilidade do regulador 7812, evitando que ele entre em oscilação ou sofra com interferências eletromagnéticas.
     
 - **Sinal da Onda:** Limpa os "espinhos" ou ruídos quase invisíveis que ficam sobrepostos à linha de tensão contínua.
-<br>
 
 ### 5. CONN-SIL2 / SIL-100-02 (Conectores)
 
@@ -76,7 +72,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** Permite a manutenção e a conexão segura de fios externos sem a necessidade de soldar e dessoldar diretamente na placa a todo momento.
     
 - **Sinal da Onda:** Na entrada (SIL de entrada), o sinal é AC Senoidal. Na saída (SIL de saída), o sinal é 12V DC Puro.
-<br>
 
 ### 6. LED (Diodo Emissor de Luz)
 
@@ -87,7 +82,6 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** Indica o estado do sistema (Ligado/Desligado). É crucial para que o usuário saiba que a placa está energizada antes de tocá-la ou conectar um dispositivo.
     
 - **Sinal da Onda:** Opera em 12V DC (após o resistor), emitindo luz constante.
-<br>
 
 ### 7. MINRES120K (Resistor)
 
@@ -98,6 +92,7 @@ Abaixo estão os principais componentes que compõem este circuito de retificaç
 - **Importância:** Sem ele, o LED receberia toda a corrente da fonte e queimaria instantaneamente. Ele calcula e "freia" a energia para o nível seguro do LED.
     
 - **Sinal da Onda:** Mantém a tensão contínua, mas reduz a amplitude da corrente circulante.
+___
 <br>
 
 ## Imagens do trabalho
@@ -109,6 +104,7 @@ Como especificado pelo professor, é preciso ter imagem do circuito nas 3 formas
 É o desenho lógico do circuito. Aqui é definido quais componentes serão usados e como eles se conectam eletricamente (quem liga em quem). Serve para simular o comportamento do circuito (testar se a fonte realmente entrega 12V) e validar a lógica antes de montar a placa física.
 
 ![Esquema Elétrico](assets/Schematic%20Capture%20-%20Retificador%20Trabalho%2001.png)
+___
 <br>
 
 ### PCB Layout (ARES):
@@ -116,15 +112,19 @@ Como especificado pelo professor, é preciso ter imagem do circuito nas 3 formas
 É o desenho físico da placa de circuito impresso. Aqui é posicionado os componentes onde eles realmente vão ficar soldados e onde as trilhas de cobre são desenhadas (as linhas azuis e vermelhas). É o arquivo usado para a fabricação da placa. É onde é definido a espessura das trilhas e o tamanho real do objeto.
 
 ![Layout da placa](assets/PCB%20Layout%20-%20Retificador%20Trabalho%2001.png)
+___
 <br>
 
 ### 3D Visualizer (Visualização 3D):
 
 É uma renderização tridimensional da placa pronta que permite verificar se os componentes estão bem espaçados, se algum conector ficou virado para o lado errado e como será o resultado final após a montagem. É a melhor forma de apresentar o projeto visualmente.
+<br>
 
 #### Placa vista de cima:
 
 ![Visualização 3D vista de cima](assets/3D%20Visualizer%20-%20Retificador%20Trabalho%2001%20(CIMA).png)
+<br>
 
 #### Placa vista de baixo:
 ![Visualização 3D vista de baixo](assets/3D%20Visualizer%20-%20Retificador%20Trabalho%2001%20(BAIXO).png)
+___
