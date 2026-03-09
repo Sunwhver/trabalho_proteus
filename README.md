@@ -45,3 +45,14 @@ ___
     
 - **Sinal da Onda:** Transforma a onda pulsante em uma linha com **Ripple** (uma pequena ondulação em forma de serra no topo do sinal).
 <br>
+
+### 4. CAP (Capacitor Cerâmico/Desacoplamento)
+
+- **O que é:** Um capacitor de baixa capacitância, geralmente não polarizado.
+    
+- **O que faz:** Filtra ruídos de alta frequência e transientes rápidos vindos da rede ou gerados pelo próprio regulador.
+    
+- **Importância:** Garante a estabilidade do regulador 7812, evitando que ele entre em oscilação ou sofra com interferências eletromagnéticas.
+    
+- **Sinal da Onda:** Limpa os "espinhos" ou ruídos quase invisíveis que ficam sobrepostos à linha de tensão contínua.
+<br>
