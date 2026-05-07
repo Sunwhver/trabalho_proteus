@@ -10,7 +10,6 @@ Este projeto faz parte da disciplina de Simulação em Sistemas Embarcados e dem
 5. [Instruções de montagem](#5-instruções-de-montagem)
 6. [Funcionamento do projeto](#6-funcionamento-do-projeto)
 7. [Esquemático do PWM](#7-esquemático-do-pwm)
-8. [Vídeo do circuito funcionando](#8-vídeo-do-circuito-funcionando)
 
 ---
 
@@ -49,10 +48,4 @@ No osciloscópio, é possível visualizar o *Duty Cycle* aumentando a cada cliqu
 ## 7. Esquemático do PWM
 Abaixo, a representação visual do circuito montado no ambiente Proteus:
 
-![Esquemático do Circuito no Proteus](./assets/Schematic%20PWM.png)
-
-## 8. Vídeo do circuito funcionando
-Demonstração da variação da onda no osciloscópio e rotação do motor:
-
-<video src="./assets/Gravação do trabalho de PWM - Proteus.mp4"></video>
-```
+![Esquemático do Circuito no Proteus](./schematics/Schematic%20PWM.png)
