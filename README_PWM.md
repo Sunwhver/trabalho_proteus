@@ -54,4 +54,5 @@ Abaixo, a representação visual do circuito montado no ambiente Proteus:
 ## 8. Vídeo do circuito funcionando
 Demonstração da variação da onda no osciloscópio e rotação do motor:
 
-<video src="./assets/Gravação%20do%20trabalho%20de%20PWM%20-%20Proteus.mp4" width="100%" controls></video>
+<video src="./assets/Gravação do trabalho de PWM - Proteus.mp4"></video>
+```
