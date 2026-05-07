@@ -9,6 +9,8 @@ Este projeto faz parte da disciplina de Simulação em Sistemas Embarcados e dem
 4. [Código-fonte](#4-código-fonte)
 5. [Instruções de montagem](#5-instruções-de-montagem)
 6. [Funcionamento do projeto](#6-funcionamento-do-projeto)
+7. [Esquemático do PWM](#7-esquemático-do-pwm)
+8. [Vídeo do circuito funcionando](#8-vídeo-do-circuito-funcionando)
 
 ---
 
@@ -26,7 +28,6 @@ O PWM (*Pulse Width Modulation* - Modulação por Largura de Pulso) é uma técn
 ## 3. Esquemático
 Os arquivos do esquemático foram desenvolvidos no Proteus e estão organizados na pasta `schematics`:
 * Arquivo de simulação: `trabalho01.pdsprj`
-*(Se desejar, adicione o PDF do circuito aqui também)*
 
 ## 4. Código-fonte
 O firmware foi desenvolvido em C++ utilizando o ambiente PlatformIO. O arquivo principal está localizado em:
@@ -42,13 +43,15 @@ O firmware foi desenvolvido em C++ utilizando o ambiente PlatformIO. O arquivo p
 
 ## 6. Funcionamento do projeto
 O sistema inicia com o motor totalmente parado (0% de PWM). Ao pressionar o botão (conectado ao pino D2), o Arduino lê a transição de estado e incrementa a velocidade do motor em degraus de aproximadamente 25% (64 pontos na escala de 0 a 255 do `analogWrite`), enviando o sinal pelo pino D9. 
+
 No osciloscópio, é possível visualizar o *Duty Cycle* aumentando a cada clique. Ao ultrapassar o limite máximo (100%), a velocidade é zerada e o ciclo recomeça.
 
 ## 7. Esquemático do PWM
+Abaixo, a representação visual do circuito montado no ambiente Proteus:
 
 ![Esquemático do Circuito no Proteus](./assets/Schematic%20PWM.png)
 
 ## 8. Vídeo do circuito funcionando
+Demonstração da variação da onda no osciloscópio e rotação do motor:
 
-![Simulação do PWM no Osciloscópio](./assets/Gravação%20do%20trabalho%20de%20PWM%20-%20Proteus.mp4)
-
+<video src="./assets/Gravação%20do%20trabalho%20de%20PWM%20-%20Proteus.mp4" width="100%" controls></video>
